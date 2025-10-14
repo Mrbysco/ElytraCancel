@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+issueTrackerURL="https://github.com/Mrbysco/ElytraCancel/issues"
+license="MIT"
+
+[[mods]]
+modId="elytracancel"
+version="${file.jarVersion}"
+displayName="Elytra Cancel"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/elytra-cancel"
+authors="Mrbysco"
+credits="Nekomaster1000 for the idea"
+description='''
+Allows canceling elytra flight mid-air by sneaking
+'''
+
+[[dependencies.elytra_cancel]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,1.21)"
+ordering="NONE"
+side="BOTH"
