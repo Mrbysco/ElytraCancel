@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[4,)"
 issueTrackerURL="https://github.com/Mrbysco/ElytraCancel/issues"
 license="MIT"
 
@@ -14,9 +14,11 @@ description='''
 Allows canceling elytra flight mid-air by sneaking
 '''
 
-[[dependencies.elytra_cancel]]
+[[dependencies.elytracancel]]
 modId="minecraft"
-mandatory=true
-versionRange="[1.20,1.21)"
+type="required"
+versionRange="[1.21,1.22)"
 ordering="NONE"
 side="BOTH"
+[[mixins]]
+config="elytracancel.mixins.json"
