@@ -3,7 +3,6 @@
   "minVersion": "0.8.5",
   "compatibilityLevel": "JAVA_21",
   "package": "com.mrbysco.elytracancel.mixin",
-  "refmap": "elytracancel.refmap.json",
   "target": "@env(DEFAULT)",
   "mixins": [
     "LivingEntityMixin"
