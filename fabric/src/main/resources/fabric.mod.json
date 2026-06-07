@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "elytracancel",
+  "version": "${version}",
+  "name": "Elytra Cancel",
+  "description": "Allows canceling elytra flight mid-air by sneaking",
+  "authors": [
+    "Mrbysco"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/elytra-cancel",
+    "sources": "https://github.com/Mrbysco/ElytraCancel",
+    "issues": "https://github.com/Mrbysco/ElytraCancel/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrbysco.elytracancel.ElytraCancelFabric"
+    ]
+  },
+  "mixins": [
+    "elytracancel.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
+  

@@ -14,7 +14,7 @@ description='''
 Allows canceling elytra flight mid-air by sneaking
 '''
 
-[[dependencies.elytra_cancel]]
+[[dependencies.elytracancel]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.20,1.21)"
