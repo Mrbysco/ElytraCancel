@@ -1,1 +1,1 @@
-* Update multiloader setup to 1.21.1
+* Update multiloader setup to 26.1.2
